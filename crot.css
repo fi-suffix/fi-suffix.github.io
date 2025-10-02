@@ -135,11 +135,11 @@ caption {
   cursor: pointer;
   font-weight: bold;
   box-shadow: 0 6px #063252;
-  transition: all 0, 2s ease;
-  -webkit-transition: all 0, 2s ease;
-  -moz-transition: all 0, 2s ease;
-  -ms-transition: all 0, 2s ease;
-  -o-transition: all 0, 2s ease;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 .btn:active {
   box-shadow: 0 2px #063252;
@@ -191,4 +191,24 @@ footer {
   height: 1px;
   background: #0077cc;
   margin: 24px 0;
+}
+
+/*tombol kelas*/
+.tombol-kelas {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.tombol-kelas:hover {
+  background-color: #0077cc;
+  transform: scale(1.1);
 }
