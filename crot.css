@@ -193,6 +193,28 @@ footer {
   margin: 24px 0;
 }
 
+.sosmed img {
+  width: 42px;
+  height: 42px;
+}
+
+.sosmed img {
+  margin: 3px;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+
+.sosmed img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
 /*tombol kelas*/
 .tombol-kelas {
   background-color: #0077cc;
