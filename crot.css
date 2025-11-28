@@ -264,6 +264,31 @@ footer {
   transform: scale(1.1);
 }
 
+/* tombol projek */
+.tombol-projek {
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  display: block;
+}
+
+.tombol-projek:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
 /* Font pairing: Playfair Display (judul) + Poppins (subjudul) + Inter (body) */
 body {
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
